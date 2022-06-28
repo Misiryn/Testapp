@@ -1,0 +1,157 @@
+body
+{
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(167,43,68,1) 100%);
+	background-repeat:no-repeat !important;
+	background-position: center !important;
+	background-size:cover !important;
+	font-family: 'Raleway', sans-serif;
+}
+#mainNavbar
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right:10px;
+	background-color: rgba(0,0,0,0.3);
+}
+.navbar-brand
+{
+    color: white;
+}
+.nav-link
+{
+	color: rgb(210,210,210)!important;
+	border-left:2px solid rgba(256, 256, 256, 0.6);
+}
+a
+{
+	margin-right: 0 !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important ;
+	padding-right: 6px; 
+}
+.navbar-nav
+{
+	padding-top: 0;
+	padding-bottom: auto;
+	margin-bottom:auto;
+}
+.row
+{
+	margin-right: 5px;
+}
+.Login-box
+{
+	color:white;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+	width:30%;
+	margin-top: 100px;
+	height: 350px;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.4);
+	margin-bottom: 50px;
+}
+input
+{
+	text-align: center;
+}
+input[type="email"]
+{
+	height: 40px; 
+	width: 40%;
+	background: transparent;
+	border:none;
+	border-bottom: 2px solid #FFFFFF;
+}
+input[type="password"]
+{
+	height: 40px; 
+	width: 40%;
+	background: transparent;
+	border:none;
+	border-bottom: 2px solid #FFFFFF;
+}
+label
+{
+	height:40px;
+    margin-bottom: 20px;
+	font-size: 1.2em;
+}
+.container-2
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#email
+{
+    margin-left : 10px;
+}
+ul
+{
+	padding-top: 20px;
+}
+footer
+{
+	color:white !important;
+	margin: 80px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	border:1px solid #FFFFFF;
+	border-style: ridge;
+	border-radius: 8px 8px 8px 8px;
+}
+h1
+{
+	color:#f5b042;
+}
+label
+{
+	color:white;
+}
+.box
+{
+	margin-top: 100px;
+	border-radius: 10px;
+	background: rgba(0, 0, 0,0.5);
+	width: 30%;
+	text-align: center;	
+	height: 400px;
+}
+#content
+{
+	text-align: right;
+}
+.row
+{
+	margin:0;
+}
+.btn
+{
+	margin-top: 20px;  
+	margin-bottom: 20px;
+}
+#admin
+{
+	margin-top: 44px;
+	float: left;
+	width: 50%;
+}
+.reg
+{
+	margin-bottom: 18px;
+}
+#user
+{
+	margin-top: 44px;
+	float: left;
+	width: 50%;
+}
+img
+{
+	border-radius: 50%;
+	margin-top: 20px;
+	width: 30%;  
+	height:100px;
+}

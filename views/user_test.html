@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test page</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="\public\stylesheets\user_test.css">
+    <script src="\public\js\user_test.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+</head>
+<body>
+    <form action="http://localhost:5232/test" method="POST">
+    <section>
+        <!-- Navbar start -->
+            <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py=0 fixed-top">
+                <a href="#"class="navbar-brand">Brand</a>
+                    <button type="button" href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navlinks" active>
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navlinks">
+                        <ul class="navbar-nav">
+                            <!-- Navbar sub-links -->
+                            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                        </ul>					
+                    </div>
+            </nav>
+        <!-- Navbar end -->
+    </section>
+    <!-- timer -->
+    <div class="timr" >Time Remaining <span id="time">10:00</span> minutes!</div>
+    <section>
+       <div id= "test-box" class="container col-10 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+            <div class="container" id="question-container">
+                <div id="questions">Question</div>
+                    <div id="answers">
+                        <input type="radio" id="a" name="ans" value="Lorem"><span> a) </span> Lorem &nbsp;
+                        <input type="radio" id="b" name="ans" value="IPSUM"><span> b) </span> IPSUM &nbsp;
+                        <input type="radio" id="c" name="ans" value="BAKON"><span> c) </span> BAKON &nbsp;
+                        <input type="radio" id="d" name="ans" value="BLAHH"><span> d) </span> BLAHH &nbsp;
+                    </div> 
+            </div> 
+        </div>
+        
+    </section>
+    <section>
+        <div class="container">
+            <div class="container" id="Submit">    
+                <button class="btn btn-success btn-xl" onclick="location.href='https://localhost:5232/'"> SUBMIT </button>    
+            </div>
+        </div>
+    </section>
+    </form>
+    <footer>
+            <ul>
+                <li><a href="#"> Contact us </a></li>
+                <li><a href="#"> Reach us  </a></li>
+                <li><a href="#"> About us  </a></li>	
+            </ul>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

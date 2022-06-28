@@ -1,0 +1,90 @@
+body
+{
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(167,43,68,1) 100%);
+	background-repeat:no-repeat !important;
+	background-position: center !important;
+	background-size:cover !important;
+	font-family: 'Raleway', sans-serif;
+}
+p
+{
+    color:white;
+}
+#text
+{
+    color:white;
+}
+#answers
+{
+    margin-top:10px;
+    color:white;
+    padding-bottom: 10px;
+    border-bottom:2px dotted black!important;
+}
+#questions
+{
+    margin-top:10px;
+    color:white;
+}
+#mainNavbar
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right:10px;
+	background-color: rgba(0,0,0,0.3);
+}
+.navbar-brand
+{
+    color: white;
+}
+.nav-link
+{
+	color: rgb(210,210,210)!important;
+	border-left:2px solid rgba(256, 256, 256, 0.6);
+}
+a
+{
+	margin-right: 0 !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important ;
+	padding-right: 6px; 
+}
+.navbar-nav
+{
+	padding-top: 0;
+	padding-bottom: auto;
+	margin-bottom:auto;
+}
+.timr
+{
+    margin-top:60px;
+    margin-left: 20px;
+    color:white;
+}
+#Submit
+{
+    margin-top:400px;
+    display:flex;
+    flex-direction: row;
+    border-radius: 15px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+}
+#test-box
+{
+    margin-top:100px;
+    border-radius: 10px;
+    height:400px;
+    background-color : rgba(126,126,126,0.5);
+}
+footer
+{
+	color:white !important;
+	margin: 80px;
+	margin-bottom: 20px;
+	border:1px solid #FFFFFF;
+	border-style: ridge;
+	border-radius: 8px;
+}

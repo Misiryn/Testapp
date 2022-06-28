@@ -1,0 +1,138 @@
+body
+{
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(167,43,68,1) 100%);
+	background-repeat:no-repeat !important;
+	background-position: center !important;
+	background-size:cover !important;
+	font-family: 'Raleway', sans-serif;
+}
+p
+{
+    color:white;
+}
+#text
+{
+    color:white;
+}
+#answers
+{
+    margin-top:10px;
+    padding-bottom: 10px;
+	border-bottom:2px dotted black!important;
+}
+#questions
+{
+    margin-top:10px;
+}
+#mainNavbar
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right:10px;
+	background-color: rgba(0,0,0,0.3);
+}
+.navbar-brand
+{
+    color: white;
+}
+#delete
+{
+	margin-top : 10px;
+	float: right;
+	width : 30px;
+	height : 30px; 
+	margin-right:5%;
+}
+#edit
+{
+	position: absolute;
+	margin-top : 10px;
+	float: right;
+	width : 30px;
+	height : 30px;
+	margin-left: 78%;
+}
+#save
+{
+	color:white;
+	position: absolute;
+	margin-top : 10px;
+	float: right;
+	width : 30px;
+	height : 30px;
+	margin-left: 78%;
+}
+.fa-trash-alt
+{
+	color: white;
+}
+.fa-pen-square
+{
+	color:blue;
+}
+.nav-link
+{
+	color: rgb(210,210,210)!important;
+	border-left:2px solid rgba(256, 256, 256, 0.6);
+}
+a
+{
+	margin-right: 0 !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important ;
+	padding-right: 6px; 
+}
+.navbar-nav
+{
+	padding-top: 0;
+	padding-bottom: auto;
+	margin-bottom:auto;
+}
+
+#add
+{
+	margin-top:100px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+	height: auto;
+    border-radius: 10px;
+}
+#qns
+{ 
+	margin-top:10px;
+	width : 90%;
+	margin-bottom : 10px;
+}
+input[type="text"]
+{
+	margin:4px;
+	border-radius : 3px;
+	background-color: grey;
+	color:black;
+}
+#ans
+{
+	margin-left : 40px;
+}
+#save-qns
+{
+	margin-left : 50%;
+	margin-bottom: 10px;
+}
+#test-box
+{
+    margin-top:100px;
+    border-radius: 10px;
+    height:400px;
+    background-color : rgba(256,256,266,0.5);
+}
+footer
+{
+	color:white !important;
+	margin: 80px;
+	margin-bottom: 20px;
+	border:1px solid #FFFFFF;
+	border-style: ridge;
+	border-radius: 8px;
+}
